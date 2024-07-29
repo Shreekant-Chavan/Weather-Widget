@@ -33,10 +33,10 @@ export default function InfoBox({info}) {
         </Typography>
         <Typography variant="body2" color="text.secondary" component={"span"}>
           <div>Tempreture = {info.temp}&deg;C</div>
-          <div>Humidity = {info.humidity}</div>
+          <div>Humidity = {info.humidity}%</div>
           <div>Maximum Temprature = {info.tempMax}&deg;C</div>
           <div>Minimum Temprature = {info.tempMin}&deg;C</div>
-          <div>Feels like = {info.feelslike}&deg;C</div>
+          <div>Weather = {info.weather}</div>
         </Typography>
       </CardContent>
     </Card>
